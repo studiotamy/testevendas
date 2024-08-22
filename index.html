@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venda de eBook</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#product">Produto</a></li>
+                <li><a href="#testimonials">Depoimentos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+        <h1>Compre Nosso eBook Exclusivo!</h1>
+    </header>
+    <main>
+        <section id="home" class="hero">
+            <h2>Transforme sua vida com nosso eBook!</h2>
+            <p>Descubra técnicas e estratégias que podem mudar sua forma de pensar e agir.</p>
+            <button id="buy-button">Comprar Agora</button>
+        </section>
+
+        <section id="product" class="product-info">
+            <div class="product-images">
+                <img src="cover.jpg" alt="Capa do eBook" class="cover-image">
+                <img src="inside.jpg" alt="Página Interna do eBook" class="inside-image">
+            </div>
+            <div class="product-details">
+                <h2>Descrição do eBook</h2>
+                <p>Este eBook oferece um guia completo sobre...</p>
+                <p><strong>Preço:</strong> R$ 29,90</p>
+                <div class="payment-options">
+                    <p>Pagamentos aceitos:</p>
+                    <img src="credit-cards.png" alt="Cartões Aceitos">
+                </div>
+            </div>
+        </section>
+
+        <section class="video">
+            <h2>Assista ao Vídeo Explicativo</h2>
+            <video controls>
+                <source src="video.mp4" type="video/mp4">
+                Seu navegador não suporta a tag de vídeo.
+            </video>
+        </section>
+
+        <section id="testimonials" class="testimonials">
+            <h2>O que nossos clientes dizem</h2>
+            <div class="testimonial">
+                <p>"Este eBook mudou a minha perspectiva completamente. Recomendo a todos!" - João S.</p>
+            </div>
+            <div class="testimonial">
+                <p>"Um guia prático e acessível. Excelente material!" - Maria A.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Entre em Contato</h2>
+            <form action="mailto:seuemail@dominio.com" method="post" enctype="text/plain">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Sua Empresa. Todos os direitos reservados.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
